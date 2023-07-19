@@ -20,6 +20,6 @@ inputs:
 
 outputs:
   - id: case
-    type: Directory?
+    type: Directory
     outputBinding:
       glob: case

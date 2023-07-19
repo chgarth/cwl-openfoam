@@ -20,6 +20,6 @@ inputs:
 
 outputs:
   - id: vtk
-    type: Directory?
+    type: Directory
     outputBinding:
       glob: case/VTK
