@@ -4,7 +4,7 @@ class: CommandLineTool
 
 hints:
   DockerRequirement:
-    dockerImageId: chgarth/openfoam:latest
+    dockerPull: chgarth/openfoam:latest
 
 requirements:
   InitialWorkDirRequirement:
