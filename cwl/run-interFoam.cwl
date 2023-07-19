@@ -15,7 +15,7 @@ requirements:
   ResourceRequirement:
     coresMin: 8
 
-baseCommand: ["cd case && interFoam"]
+baseCommand: ["/bin/bash", "-c", "cd case && /usr/bin/openfoam2306 interFoam"]
 
 inputs:
   case: Directory

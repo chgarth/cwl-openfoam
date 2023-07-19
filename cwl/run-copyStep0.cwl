@@ -13,7 +13,7 @@ requirements:
         entryname: case
         writable: true
 
-baseCommand: ["cd case && rm -rf 0 && cp -Rv 0.orig 0"]
+baseCommand: ["/bin/bash", "-c", "cd case && cp -Rv 0.orig 0"]
 
 inputs:
   case: Directory

@@ -13,7 +13,7 @@ requirements:
         entryname: case
         writable: true
 
-baseCommand: ["cd case && foamToVTK"]
+baseCommand: ["/bin/bash", "-c", "cd case && /usr/bin/openfoam2306 foamToVTK"]
 
 inputs:
   case: Directory
