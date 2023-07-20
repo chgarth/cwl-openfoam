@@ -41,4 +41,4 @@ steps:
     in:
       case: 
         source: interFoam/case
-    out: [vtk]     
+    out: [vtk]

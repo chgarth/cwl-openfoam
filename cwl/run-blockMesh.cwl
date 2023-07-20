@@ -13,7 +13,7 @@ requirements:
         entryname: case
         writable: true
 
-baseCommand: ["/bin/bash", "-c", "cd case && /usr/bin/openfoam2306 blockMesh"]
+baseCommand: ["cd case && /usr/bin/openfoam2306 blockMesh"]
 
 inputs:
   case: Directory
